@@ -1,5 +1,5 @@
-let form = document.querySelector("form")
-let cont = document.querySelector(".cont")
+const form = document.querySelector("form")
+const cont = document.querySelector(".cont")
 
 //Using the form as to submit
 
