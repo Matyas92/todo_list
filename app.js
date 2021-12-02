@@ -1,5 +1,5 @@
-var form = document.querySelector("form")
-var cont = document.querySelector(".cont")
+let form = document.querySelector("form")
+let cont = document.querySelector(".cont")
 
 //Using the form as to submit
 
@@ -7,7 +7,7 @@ form.addEventListener('submit', (e) => {
   e.preventDefault();
 
   //Set the value of the form in html text named input's value
-  var text = form.text.value;
+  let text = form.text.value;
 
   //if the input is not empty we can go further
   if (text != "") {
